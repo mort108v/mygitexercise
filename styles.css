@@ -1,0 +1,49 @@
+    /******************* GENERAL *******************/
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    *:focus {
+        outline: none;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        /* no underline */
+    }
+    
+    li {
+        text-align: center;
+        list-style: none;
+        margin: 10px;
+        padding: 0;
+    }
+    
+    li+li::before {
+        content: " | ";
+    }
+    
+    nav {
+        width: 80vw;
+        margin: 0 auto;
+        background-color: lightcoral;
+        color: #444;
+    }
+    
+    ul {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    header {
+        background-color: lightskyblue;
+    }
